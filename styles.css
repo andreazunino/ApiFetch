@@ -1,3 +1,12 @@
+.header-container {
+    background-image: url('clima.jpg'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    padding: 100px 0; /* Agrega espacio alrededor del contenido */
+    color: #080808; /* Color del texto */
+    text-align: center; /* Centra el texto */
+}
+
 body {
     background: linear-gradient(to right, #6a11cb, #2575fc);
     color: #fff;
@@ -25,12 +34,14 @@ body {
 }
 
 .card-header h1 {
-    font-size: 2.5rem; /* Tamaño grande para el título */
+    font-size: 2.5rem; /* título */
     margin-bottom: 0.5rem; 
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card-header p {
-    font-size: 1.2rem; /* Tamaño del texto descriptivo */
-    color: #ccc; 
+    font-size: 1.2rem; /* texto descripcion */
+    color: #11023b; 
     font-style: italic; 
 }
