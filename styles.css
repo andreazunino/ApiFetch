@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.card-header {
+    text-align: center; /* Centra el contenido */
+}
+
+.card-header h1 {
+    font-size: 2.5rem; /* Tamaño grande para el título */
+    margin-bottom: 0.5rem; 
+}
+
+.card-header p {
+    font-size: 1.2rem; /* Tamaño del texto descriptivo */
+    color: #ccc; 
+    font-style: italic; 
+}

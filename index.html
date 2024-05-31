@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El clima hoy</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icono.png">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card text-center">
+            <div class="card-header">
+                <h1>El clima Hoy</h1>
+                <p>Descubre cómo está el clima en cualquier parte del mundo con nuestra aplicación! Ingresa la ciudad que te interese, click en "Buscar" y listo!!</p>
+            </div>
+            <div class="card-body">
+                <input type="text" id="city" class="form-control mb-3" placeholder="Nombre ciudad">
+                <button id="getWeather" class="btn btn-primary">Buscar</button>
+                <div id="weatherInfo" class="mt-4"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
